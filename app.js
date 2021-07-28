@@ -16,8 +16,6 @@ form.addEventListener("submit", (e) => {
   const luckyNumber = Number(luckyNum.value);
 
   const areYouLucky = dateSum % luckyNumber === 0 ? true : false;
-  luckyNum.value = "";
-  bday.value = "";
 
   section.classList.add("lucky-section");
 
