@@ -84,3 +84,18 @@
   }
   
 
+  .footer{
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-bottom-right-radius: 1rem;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: larger
+}
